@@ -7,3 +7,11 @@
     border-radius: 5px;
     padding: 12px 20px;
 }
+
+.button:hover{
+    transform-origin:top left;
+    transform:scale(0.95);
+    transition: all 0.2s;
+    background-color: #0A49AF;
+    padding: 12px 20px;
+}
