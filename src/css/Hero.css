@@ -5,20 +5,29 @@
     height: 70vh;
     width: 100vw;
     background:transparent linear-gradient(0deg, #0A49AF 0%, #0E5FE3 100%) 0% 0% no-repeat padding-box;
+    overflow: hidden;
   }
   
 
 .heroContainer{
+    position: relative;
     width: 60vw;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.hero__background{
+    position: absolute;
+    left: 30%;
+    z-index: 0;
+    opacity: 0.3;
+}
 
 
 /* Hero Intro / Left Side */
 .hero__intro{
+    position: relative;
     color: white;
     width: 37%; 
 }
@@ -39,6 +48,7 @@
 /* Hero Splash / Right Side */
 
 .hero__splash{
+    position: relative;
     width: 60% ;
     height: 60%;
 }

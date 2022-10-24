@@ -2,11 +2,13 @@ import React from "react";
 import "../css/Hero.css";
 import Button from "./button";
 import herosplash from "../assets/images/lc-hero-desktop@2x.png"
+import herobackground from "../assets/logos/LawConnect-lcon-RGB.png"
 
 export default function Hero() {
   return (
     <div className="hero">
       <div className="heroContainer">
+      <img src={herobackground} className="hero__background"></img>
       <div className="hero__intro">
         <h1 className="hero__intro--heading">
           The place to work with your lawyer
