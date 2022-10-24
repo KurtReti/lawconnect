@@ -32,14 +32,12 @@
   text-decoration: none;
 }
 
-
-
 /* Header Account */
 
-.header__account{
-    display: flex;
-    align-items: center;
-    gap: 20px
+.header__account {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .header__account--login {
@@ -47,3 +45,52 @@
   text-decoration: none;
   font-size: 16px;
 }
+
+/* Burger Menu */
+
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+}
+
+.burger__line{
+  background-color: white;
+  height: 2px;
+  width: 20px;
+  border-radius: 5px;
+}
+
+/* Mobile Breakpoints */
+
+@media only screen and (max-width: 1120px){
+  .header{
+    background-color:#0E5FE3;
+    top: 0px;
+    height: 10vh;
+    width: 100vw;
+
+  }
+
+  .burger{
+    display: flex;
+  }
+
+  .header__logo {
+    padding-left: 20px;
+    width: 145px;
+    height: 20px;
+  }
+
+  .header__links{
+    display: none;
+  }
+  .header__account{
+    display: none;
+  }
+}
+
+  

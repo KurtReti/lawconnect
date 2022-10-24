@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="app">
-        <Header />
+      <Header />
       <section id="hero">
         <Hero />
       </section>
@@ -28,10 +28,11 @@ function App() {
         />
       </section>
       <section id="signing">
-        <Signing 
-          title="Signing Documents Electronically" 
+        <Signing
+          title="Signing Documents Electronically"
           content1="LawConnect integrates with DocuSign to provide our users with a quick, easy and secure way to sign importnt legal documents online."
-          img={signingimg}/>
+          img={signingimg}
+        />
       </section>
       <section id="footer">
         <Footer />

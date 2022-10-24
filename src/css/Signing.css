@@ -1,29 +1,35 @@
-.signing{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    width: 100vw;
-    background-color: white;
+.signing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100vw;
+  background-color: white;
 }
 
-.signingContainer{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    justify-content: center;
-    gap: 200px;
-    height: 60vh;
-    width: 60vw;
+.signingContainer {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  gap: 200px;
+  height: 60vh;
+  width: 60vw;
 }
-.signing__image{
-    height: 445px;
-    width: 367px;
+.signing__image {
+  height: 445px;
+  width: 367px;
 }
 
-.signing__text{
-    width: 37.5%;
-    letter-spacing: 0.08px;
-    
+.signing__text {
+  width: 37.5%;
+  letter-spacing: 0.08px;
+}
+
+
+@media only screen and (max-width: 1120px){
+  .signing{
+    display: none;
+  }
 }

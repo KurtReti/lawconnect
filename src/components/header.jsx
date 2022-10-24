@@ -24,6 +24,12 @@ export default function Header() {
         </a>
         <Button title="Create Free Account" />
       </div>
+      <div className="burger">
+        <div className="burger__line"></div>
+        <div className="burger__line"></div>
+        <div className="burger__line"></div>
+
+      </div>
     </div>
   );
 }

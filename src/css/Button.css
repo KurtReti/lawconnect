@@ -1,17 +1,23 @@
-.button{
-    height:40px;
-    font-size: 16px;
-    border: none;
-    background-color: #2AB7FD;
-    color: white;
-    border-radius: 5px;
-    padding: 12px 20px;
+.button {
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #2ab7fd;
+  color: white;
+  border-radius: 5px;
+  padding: 12px 20px;
 }
 
-.button:hover{
-    transform-origin:top left;
-    transform:scale(0.95);
-    transition: all 0.2s;
-    background-color: #0A49AF;
-    padding: 12px 20px;
+.button:hover {
+  transform-origin: top left;
+  transform: scale(0.95);
+  transition: all 0.2s;
+  background-color: #0a49af;
+  padding: 12px 20px;
+}
+
+@media only screen and (max-width: 1120px){
+  .button{
+    width: 85vw;
+  }
 }

@@ -3,24 +3,18 @@ body {
   margin: 0;
 }
 
-.app{
- height: fit-content;
- display: flex;
- flex-direction: column;
- align-items: center;
+.app {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.global__title{
-  color: #0A49AF;
+.global__title {
+  color: #0a49af;
   font-weight: 300;
   font-size: 36px;
   margin: 0;
-
 }
-
-.global__content{
-  
-}
-
 
 
