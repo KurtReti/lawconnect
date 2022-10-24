@@ -1,0 +1,44 @@
+/* Hero Globals */
+.hero {
+    display: flex; 
+    justify-content: center ;
+    height: 70vh;
+    width: 100vw;
+    background:transparent linear-gradient(0deg, #0A49AF 0%, #0E5FE3 100%) 0% 0% no-repeat padding-box;
+  }
+  
+
+.heroContainer{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Hero Intro / Left Side */
+.hero__intro{
+    color: white;
+    width: 37%; 
+}
+
+.hero__intro--heading{
+    font-size: 48px;
+    letter-spacing: -0.72;
+
+}
+
+.hero__intro--content{
+    line-height: 24px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+
+/* Hero Splash / Right Side */
+
+.hero__splash{
+    width: 60% ;
+    height: 60%;
+}

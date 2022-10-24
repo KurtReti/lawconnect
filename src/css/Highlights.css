@@ -1,0 +1,36 @@
+/* Highlights Globals */
+
+.highlights{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.highlightsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+}
+
+/* Highlights Text */
+
+.highlights__title{
+    color: #0A49AF;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 0;
+
+}
+
+/* Highlights Cards */
+
+.highlights__cardsContainer{
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+}
