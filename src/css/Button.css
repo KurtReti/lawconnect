@@ -2,6 +2,7 @@
   height: 40px;
   font-size: 16px;
   border: none;
+  max-width: 400px;
   background-color: #2ab7fd;
   color: white;
   border-radius: 5px;

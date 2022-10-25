@@ -7,6 +7,7 @@ import Sharing from "./components/Sharing";
 import sharingimg from "./assets/images/lc-share-docs.png";
 import Signing from "./components/Signing";
 import signingimg from "./assets/images/lc-sign-docs-desktop@2x.png";
+import signingimgmobile from "./assets/images/lc-sign-docs-mobile@2x.png"
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
     <div className="app">
       <Header />
       <section id="hero">
-        <Hero />
+        <Hero title="The place to work with your lawyer" content="Your lawyer uses LawConnect to share information with you about your
+            legal case in a private, convenient and secure way."/>
       </section>
       <section id="highlights">
-        <Highlights />
+        <Highlights title="One Solution Designed to Make Your Firm More Money"/>
       </section>
       <section id="sharing">
         <Sharing
@@ -30,8 +32,9 @@ function App() {
       <section id="signing">
         <Signing
           title="Signing Documents Electronically"
-          content1="LawConnect integrates with DocuSign to provide our users with a quick, easy and secure way to sign importnt legal documents online."
-          img={signingimg}
+          content1="LawConnect integrates with DocuSign to provide our users with a quick, easy and secure way to sign important legal documents online."
+          img2={signingimgmobile} img1={signingimg}
+
         />
       </section>
       <section id="footer">

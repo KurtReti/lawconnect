@@ -52,20 +52,30 @@
 
 @media only screen and (max-width: 1120px){
   .heroContainer{
-    flex-direction: column;
+    flex-direction: column-reverse;
+    
   }
 
   .hero{
     height: 90vh;
+    text-align: center;
+
+  }
+
+  .hero__background{
+    display: none;
   }
 
   .hero__intro{
     width: 85vw;
+  }
+
+  .hero__intro--content{
     text-align: center;
+
   }
 
   .hero__splash{
-    display: none;
   }
 
   .hero__intro--heading {

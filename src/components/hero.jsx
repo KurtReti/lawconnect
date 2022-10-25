@@ -4,18 +4,17 @@ import Button from "./button";
 import herosplash from "../assets/images/lc-hero-desktop@2x.png";
 import herobackground from "../assets/logos/LawConnect-lcon-RGB.png";
 
-export default function Hero() {
+export default function Hero(props) {
   return (
     <div className="hero">
       <div className="heroContainer">
         <img src={herobackground} className="hero__background"></img>
         <div className="hero__intro">
           <h1 className="hero__intro--heading">
-            The place to work with your lawyer
+           {props.title}
           </h1>
           <p className="hero__intro--content">
-            Your lawyer uses LawConnect to share information with you about your
-            legal case in a private, convenient and secure way.
+           {props.content} 
           </p>
           <div className="hero__intro--button">
             <Button title="Create Free Account" />

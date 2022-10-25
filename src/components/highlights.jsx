@@ -6,12 +6,12 @@ import card1 from "../assets/images/lc-safe-docs.jpg";
 import card2 from "../assets/images/lc-work-remote.jpg";
 import card3 from "../assets/images/lc-greater-collab.jpg";
 
-export default function Highlights() {
+export default function Highlights(props) {
   return (
     <div className="highlights">
       <div className="highlightsContainer">
         <h1 className="highlights__title">
-          One Solution Designed to Make Your Firm More Money
+          {props.title}
         </h1>
         <div className="highlights__cardsContainer">
           <Card

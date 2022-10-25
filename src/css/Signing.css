@@ -29,7 +29,33 @@
 
 
 @media only screen and (max-width: 1120px){
+
   .signing{
-    display: none;
+    height: 100vh;
+    
+  }
+
+  .signing__image{
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .signingContainer{
+    flex-direction: column;
+    gap: 20px;
+    width: 90vw;
+  }
+
+  .signing__text{
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .signing__text--title{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
   }
 }
