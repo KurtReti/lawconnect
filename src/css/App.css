@@ -10,6 +10,11 @@ body {
   align-items: center;
 }
 
+.img{
+  position: relative;
+  z-index: 1;
+}
+
 .global__title {
   color: #0a49af;
   font-weight: 300;

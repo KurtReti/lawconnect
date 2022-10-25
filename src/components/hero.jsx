@@ -2,7 +2,9 @@ import React from "react";
 import "../css/Hero.css";
 import Button from "./button";
 import herosplash from "../assets/images/lc-hero-desktop@2x.png";
+import herosplashmobile from "../assets/images/lc-hero-mobile@2x.png"
 import herobackground from "../assets/logos/LawConnect-lcon-RGB.png";
+import ResponsiveImage from "./ResponsiveImage";
 
 export default function Hero(props) {
   return (
@@ -20,7 +22,13 @@ export default function Hero(props) {
             <Button title="Create Free Account" />
           </div>
         </div>
-        <img className="hero__splash" src={herosplash}></img>
+        <div className="hero__splash">
+         <ResponsiveImage 
+         imagemobile={herosplashmobile}
+         imagedesktop={herosplash}
+         desktopwidth="700px"
+         mobilewidth="200px" />
+        </div>
       </div>
     </div>
   );

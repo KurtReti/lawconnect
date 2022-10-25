@@ -44,11 +44,12 @@
 
 /* Hero Splash / Right Side */
 
-.hero__splash {
+/* .hero__splash {
   position: relative;
-  width: 60%;
-  height: 60%;
-}
+  width: 30%;
+  height: 30%;
+  z-index: 1;
+} */
 
 @media only screen and (max-width: 1120px){
   .heroContainer{
@@ -75,8 +76,7 @@
 
   }
 
-  .hero__splash{
-  }
+  
 
   .hero__intro--heading {
     font-size: 32px;
