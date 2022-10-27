@@ -30,12 +30,13 @@
 .hero__intro {
   position: relative;
   color: white;
-  width: 37%;
+  width: 35%;
   min-width: 200px;
 }
 
 .hero__intro--heading {
   font-size: 48px;
+  font-weight: 700;
   letter-spacing: -0.72;
 }
 
