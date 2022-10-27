@@ -79,8 +79,11 @@
     top: 0px;
     height: 10vh;
     width: 100vw;
+    min-width: 100px;
+
 
   }
+  
 
   .burger{
     display: flex;
