@@ -1,8 +1,12 @@
+/* Footer Globals */
+
 .footer {
   height: 15vh;
   width: 100vw;
   background-color: black;
 }
+
+/* Media Breakpoints */
 
 @media only screen and (max-width: 1120px){
   .footer{

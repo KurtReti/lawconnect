@@ -1,3 +1,5 @@
+/* Signing Globals */
+
 .signing {
   display: flex;
   flex-direction: column;
@@ -22,16 +24,23 @@
   width: 367px;
 }
 
+
+/* Signing Text */
+
 .signing__text {
   width: 37.5%;
+  min-width: 320px;
+  max-width: 400px;
   letter-spacing: 0.08px;
 }
 
 
+/* Media Breakpoints */
+
 @media only screen and (max-width: 1120px){
 
   .signing{
-    height: 100vh;
+    height: 70vh;
     
   }
 
@@ -50,6 +59,7 @@
     width: 100%;
     font-size: 14px;
     line-height: 22px;
+    text-align: center;
   }
 
   .signing__text--title{

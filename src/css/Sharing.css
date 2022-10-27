@@ -17,13 +17,14 @@
   justify-content: center;
   gap: 200px;
   height: 50vh;
-  width: 60vw;
+  width: 55vw;
 }
 
 /* Sharing Text */
 
 .sharing__text {
   width: 37.5%;
+  min-width: 320px;
   letter-spacing: 0.08px;
   color: #191919CC;
 }
@@ -35,9 +36,11 @@
 }
 
 
+/* Media Breakpoints */
+
 @media only screen and (max-width: 1120px){
   .sharing{
-    height: 100vh;
+    height: 70vh;
   }
 
   .sharingContainer{

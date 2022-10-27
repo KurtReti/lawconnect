@@ -1,7 +1,7 @@
 /* Hero Globals */
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-between  ;
   height: 70vh;
   width: 100vw;
   background: transparent linear-gradient(0deg, #0a49af 0%, #0e5fe3 100%) 0% 0%
@@ -16,6 +16,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-width: 900px;
+
 }
 .hero__background {
   position: absolute;
@@ -29,6 +31,7 @@
   position: relative;
   color: white;
   width: 37%;
+  min-width: 200px;
 }
 
 .hero__intro--heading {
@@ -50,6 +53,13 @@
   height: 30%;
   z-index: 1;
 } */
+
+@media only screen and (min-width: 800px){
+  .hero__splash{
+    width: 550px;
+  }
+}
+
 
 @media only screen and (max-width: 1120px){
   .heroContainer{

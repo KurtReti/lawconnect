@@ -26,7 +26,7 @@ export default function Hero(props) {
          <ResponsiveImage 
          imagemobile={herosplashmobile}
          imagedesktop={herosplash}
-         desktopwidth="700px"
+         desktopwidth="570px"
          mobilewidth="200px" />
         </div>
       </div>

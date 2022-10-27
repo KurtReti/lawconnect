@@ -12,6 +12,7 @@
   color: white;
   width: 60%;
   align-items: center;
+  min-width: 900px;
 }
 
 /* Header Logo */
@@ -65,6 +66,12 @@
 }
 
 /* Mobile Breakpoints */
+
+@media only screen and (max-width: 1400px){
+  .header__links{
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 1120px){
   .header{
